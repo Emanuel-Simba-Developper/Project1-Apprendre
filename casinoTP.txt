@@ -1,0 +1,37 @@
+   
+
+
+
+    - mise des numeros de 0 à 49
+
+    - la roulette est constituée par 50 cases
+
+    -  les numeros pairs sont de couleur noirs et les impars rouge
+
+    - numero oû s'arreté la bille est le numero gagnant
+
+    - si la balle tombe sur le numero dont lequel le jouer a misé "Le croupier lui remet fois la somme misé"
+      SINON -- Le croupier regarder si le numero par lequel le jouer a misé c'est la couleur gagnant ou s'il est 
+      pair ou impair(50% de sa mise en cas de nombre gagnant). si ce n'est pas le cas le jouer perd sa mise.
+      - le numero misé et le gagnant sont indiqués
+
+      - soit le jouer perd ou gagne la mise il l'a récupere tjrs
+
+      - il perdra le jeu voire tout son argent s'il perd que la troisieme mise
+
+  Resolution
+  fonction randrage(6)
+
+   while true:
+       try:
+          chi = int(input("chiffre: "))
+          if chi > 0:
+            break
+          print("chiffre invalide")
+      except Exception as e:
+          print("chiffre invalide")
+
+  receptepsi@gmail.com
+  un fichier casini*nomPrenom*.py/txt
+
+   
